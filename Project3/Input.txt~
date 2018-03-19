@@ -1,0 +1,5 @@
+(ATOM NIL)
+(CONS NIL NIL)
+(CDR (QUOTE (2)))
+(CONS 2 (QUOTE (NIL)))
+

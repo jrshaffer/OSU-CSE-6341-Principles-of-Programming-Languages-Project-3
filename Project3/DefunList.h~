@@ -1,0 +1,19 @@
+#ifndef DEFUNLIST_H
+#define DEFUNLIST_H
+#include "node.h"
+#include <string>
+
+using namespace std;
+
+// Token class to store the different types of tokens
+class DefunList {
+
+public: 
+	node *dlist = new node;
+	dlist->type = "ATOM";
+	dlist->value = "NIL";
+	node *getDList();
+	void setDList(node *dlist);
+};
+
+#endif
